@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, form, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a background color and some padding to the body */
+  body {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Organize the main content area */
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the form and its elements */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"], button {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #4f8ace;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add styles to the number bank and sorted numbers sections */
+  #numberBank, #sortedNumbers {
+    width: 48%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the output fields */
+  output {
+    display: block;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style headers */
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
